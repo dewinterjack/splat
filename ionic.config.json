@@ -1,0 +1,8 @@
+{
+  "name": "splat",
+  "app_id": "8f33c8a4",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
