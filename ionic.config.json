@@ -1,8 +1,6 @@
 {
-  "name": "splat",
-  "app_id": "8f33c8a4",
+  "name": "ionic-unit-testing-example",
+  "app_id": "",
   "type": "ionic-angular",
-  "integrations": {
-    "cordova": {}
-  }
+  "integrations": {}
 }
