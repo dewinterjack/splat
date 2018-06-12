@@ -3,13 +3,17 @@ import { IonicPage, NavController } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-page1',
-  templateUrl: 'page1.html'
+  selector: 'page-splat',
+  templateUrl: 'splat.html'
 })
-export class Page1 {
+export class Splat {
 
   constructor(public navCtrl: NavController) {
 
+  }
+
+  buildURL(user:string="jackdewinter") {
+    console.log(`Beginning Authorisation for ${user}`)
   }
 
 }

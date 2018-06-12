@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Splat</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="app">
+  <h3>Authorise Spotify</h3>
+  <p class="app">
+    Enter your spotify details so we can splat some tunes for you
+  </p>
+  <button ion-button color="primary" round menuToggle (click)="buildURL()">Login With Spotify</button>
+  <button ion-button color="secondary" round menuToggle (click)="buildURL()">Splat</button>
+</ion-content>

@@ -10,14 +10,14 @@ import { Nav, Platform } from 'ionic-angular';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = 'Page1';
+  rootPage: any = 'Splat';
 
   pages: Array<{ title: string, component: any }>;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Page One', component: 'Page1' },
+      { title: 'Splat', component: 'Splat' },
       { title: 'Page Two', component: 'Page2' }
     ];
 
