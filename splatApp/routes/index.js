@@ -3,7 +3,12 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'Splat'});
+});
+
+router.post('/auth', function(req, res){
+  console.log("Auth in progress...");
+  res.sendStatus(200);
 });
 
 module.exports = router;
