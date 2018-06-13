@@ -1,0 +1,14 @@
+{
+  "name": "ionic-unit-testing-example",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  },
+  "proxies": [
+    {
+      "path": "/auth",
+      "proxyUrl": "http://192.168.1.87:8100/auth"
+    }
+  ]
+}

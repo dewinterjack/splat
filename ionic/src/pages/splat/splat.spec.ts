@@ -1,21 +1,21 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By }           from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
-import { Page1 } from './page1';
+import { Splat } from './splat';
 import { IonicModule, Platform, NavController} from 'ionic-angular/index';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 describe('Page1', () => {
   let de: DebugElement;
-  let comp: Page1;
-  let fixture: ComponentFixture<Page1>;
+  let comp: Splat;
+  let fixture: ComponentFixture<Splat>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [Page1],
+      declarations: [Splat],
       imports: [
-        IonicModule.forRoot(Page1)
+        IonicModule.forRoot(Splat)
       ],
       providers: [
         NavController
@@ -24,7 +24,7 @@ describe('Page1', () => {
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(Page1);
+    fixture = TestBed.createComponent(Splat);
     comp = fixture.componentInstance;
     de = fixture.debugElement.query(By.css('h3'));
   });

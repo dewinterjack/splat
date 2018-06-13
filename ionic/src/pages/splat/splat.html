@@ -12,6 +12,9 @@
   <p class="app">
     Enter your spotify details so we can splat some tunes for you
   </p>
-  <button ion-button color="primary" round menuToggle (click)="buildURL()">Login With Spotify</button>
-  <button ion-button color="secondary" round menuToggle (click)="buildURL()">Splat</button>
+  <div id="but">
+    <button ion-button color="primary" round menuToggle (click)="buildURL()">Login With Spotify</button>
+    <br />
+    <button ion-button color="secondary" round menuToggle (click)="splat()">Splat</button>
+  </div>
 </ion-content>
