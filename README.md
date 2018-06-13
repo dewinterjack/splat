@@ -18,5 +18,4 @@ Then running the server with the -o flag (inside the cloned project directory) w
 http-server -o
 ```
 
-
-
+There is no routing currently implemented. At some stage I would like to implement routing capability along with linking with folders for js and style components, everything is currently in the public folder without other folders.
