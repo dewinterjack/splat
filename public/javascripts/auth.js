@@ -11,7 +11,7 @@ window.onload = function(){
             throw new Error('Request failed.');
         })
         .catch(function(error){
-            console.log(error)
+            console.log(error);
         });
     })
 }

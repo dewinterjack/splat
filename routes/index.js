@@ -8,6 +8,7 @@ router.get('/', function(req, res, next) {
 
 router.post('/auth', function(req, res){
   console.log("Auth in progress...");
+  fetch('accounts.spotify.com/authorize')
   res.sendStatus(200);
 });
 

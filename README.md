@@ -6,16 +6,13 @@ This application is being worked on in multiple sections, an Ionic Application, 
 
 The OAuth2 project is a simple interface to learn more about how the protocol comes into practise. 
 
-In order to run the project, the node module, [http-server](https://github.com/indexzero/http-server) must be installed (gloabally would make sense).
+Run:
 
 ```bash
-npm i http-server -g
+npm i
 ```
-
-Then running the server with the -o flag (inside the cloned project directory) will open the browser when the server is ready.
 
 ```bash
-http-server -o
+npm run dev
 ```
 
-There is no routing currently implemented. At some stage I would like to implement routing capability along with linking with folders for js and style components, everything is currently in the public folder without other folders.
